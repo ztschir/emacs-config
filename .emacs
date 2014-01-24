@@ -1,6 +1,7 @@
 (load-file "~/.emacs.d/epy/epy-init.el")
 (load-file "~/.emacs.d/matlab/matlab-load.el")
 (load-file "~/.emacs.d/matlab/matlab.el")
+(load-file "~/.emacs.d/exec-path-from-shell/exec-path-from-shell.el")
 (tool-bar-mode -1)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -17,6 +18,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
 
 (require 'package)
 (add-to-list 'package-archives 

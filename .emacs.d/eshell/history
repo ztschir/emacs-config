@@ -1,0 +1,14 @@
+ls
+cd ~
+ls
+cd emacs-config/
+git add .
+git commit -am 'Added matlab for emacs'
+ls
+cd .emacs.d/
+ls
+cd matlab/
+ls
+emacs matlab.el 
+env
+exit
