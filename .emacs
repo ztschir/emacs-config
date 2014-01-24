@@ -1,4 +1,6 @@
 (load-file "~/.emacs.d/epy/epy-init.el")
+(load-file "~/.emacs.d/matlab/matlab-load.el")
+(load-file "~/.emacs.d/matlab/matlab.el")
 (tool-bar-mode -1)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -15,3 +17,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(require 'package)
+(add-to-list 'package-archives 
+    '("marmalade" .
+      "http://marmalade-repo.org/packages/"))
+(package-initialize)
