@@ -1,14 +1,128 @@
-ls
-cd ~
-ls
-cd emacs-config/
+program3
+./program3 
+c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
+./program3 
+c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
+./program3 
+c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
+./program3 
+./program3 
+./program3 
+./program3 
+c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
+./program3 
+./program3 
+./program3 
+./program3 
+./program3 
+./program3 
+./program3 
+./program3 
+./program3 
+./program3 
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp
+./program4
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+c++ -o program4 matrix.cpp program4.cpp; ./program4 
+cd ..
 git add .
-git commit -am 'Added matlab for emacs'
+git commit -am 'added hw3'
+git push
+cd ..
 ls
-cd .emacs.d/
+cd Numerical\ Methods\ for\ Applications/
 ls
-cd matlab/
+git add .
+git commit -am 'Added homework'
+git push
+cd ..
+cd ..
+cd Aerospace/
 ls
-emacs matlab.el 
-env
-exit
+cd Aerospace\ Materials\ Laboratory/
+git add .
+git commit -am 'Added lab 4'
+git push
+ls
+history | grep g++
+history | grep gcc
+ls
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program4 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program4 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+cd ..
+cd Homework5
+ls
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
+cd ..
+cd Homework6
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+ls
+cd Users/zacharytschirhart/Documents/School/College/Aerospace/Spacecraft\ Mission\ Design/
+ls
+git pull
+git commit -am 'still fixing problems, fixed a few obvious ones'
+git push
