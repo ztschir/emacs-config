@@ -1,128 +1,128 @@
-program3
-./program3 
-c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
-./program3 
-c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
-./program3 
-c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
-./program3 
-./program3 
-./program3 
-./program3 
-c++ -o program3 matrix.cpp gauss_elim.cpp program3.cpp
-./program3 
-./program3 
-./program3 
-./program3 
-./program3 
-./program3 
-./program3 
-./program3 
-./program3 
-./program3 
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp
-./program4
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-c++ -o program4 matrix.cpp program4.cpp; ./program4 
-cd ..
-git add .
-git commit -am 'added hw3'
-git push
+ssh zach@zach-dev-box
+ssh zach@zach-dev-box
+cd AMD/
+ls
+mkdir onboard-documents
+mv NEOPolicyAcknowledgementForm_all_Zachary_Tschirhart.pdf onboard-documents/
+mv TexasWorkersCompAustin_Zachary_Tschirhart.pdf onboard-documents/
+mv US_Agmt_AMD_all_Zachary_Tschirhart.pdf onboard-documents/
+mv personalDataForm_US_Zachary_Tschirhart.pdf onboard-documents/
+ls
+git clone ztschirh@atlvgar05:/proj/exa_sim/papers/ProgModels_paper.git
+ssh ztschirh@atlvgar05
+ssh ztschirh@atlvgar04
+git clone ztschirh@atlvgar04:/proj/exa_sim/papers/ProgModels_paper.git
+ls
+cd ProgModels_paper/
+ls
 cd ..
 ls
-cd Numerical\ Methods\ for\ Applications/
+ssh zach@zach-dev-box
+ssh zach@zach-dev-box
+sudo reboot
+ssh zach@zach-dev-box
+ssh zach@zach-dev-box
+ssh zach@zach-dev-box
 ls
-git add .
-git commit -am 'Added homework'
-git push
+rm Paper-problems.txt~
+cd ProgModels_paper/
+ls
+cd results/
+ls
+ls -la
+ls
 cd ..
-cd ..
-cd Aerospace/
 ls
-cd Aerospace\ Materials\ Laboratory/
-git add .
-git commit -am 'Added lab 4'
-git push
+cd ~/Do
+cd ~/
+cd Documents/
 ls
-history | grep g++
-history | grep gcc
+cd Wo
 ls
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program4 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program4 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-cd ..
-cd Homework5
+ls -l
+rm Personal 
+rm School 
+rm Work 
+rm workspace 
 ls
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-c++ -o program5 matrix.cpp genpower.cpp sympower.cpp program5.cpp; ./program5 
-cd ..
-cd Homework6
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
-c++ -o program6 matrix.cpp  qr.cpp program6.cpp; ./program6 
+ln -s Personal ~/Dropbox/Personal
 ls
-cd Users/zacharytschirhart/Documents/School/College/Aerospace/Spacecraft\ Mission\ Design/
+ls -l
+ln -s ~/Dropbox/Personal Personal
+ls
+ls -l
+ln -s ~/Dropbox/School School
+ln -s ~/Dropbox/Work Work
+ln -s ~/Dropbox/workspace workspace
+ls
+cd Work/
+ls
+cd A
+cd AMD/
+ls
+cd ProgModels_paper/
 ls
 git pull
-git commit -am 'still fixing problems, fixed a few obvious ones'
-git push
+ls
+cd results/
+ls
+ls
+cd ..
+ls
+aspell
+brew install ispell
+ls
+./build.sh 
+ls
+pdflatex paper.tex
+install-tl
+ls
+./build.sh 
+./build.sh 
+ls
+cd text/
+ls
+ls
+cd ..
+ls
+rm paper.pdf
+rm paper.log
+./build.sh 
+sudo tlmgr install pcrr7t
+kpsewhere pcrr7t.vf
+kpsewhere pcrr7t.tfm
+sudo tlmgr install courier
+./build.sh 
+cd ..
+ls
+ls
+mkdir Papers
+mv ProgModels_paper/ Paper
+ls
+mv Paper Papers/.
+mv Paper-problems.txt Papers/.
+cd Papers/
+ls
+mkdir Exploring\ Parallel\ Programming\ Models\ for\ Heterogeneous\ Computing\ Systems
+ls
+mv Exploring\ Parallel\ Programming\ Models\ for\ Heterogeneous\ Computing\ Systems/ Heterogeneous_Computing
+ls
+mv Paper Heterogeneous_Computing/.
+mv Paper-problems.txt Heterogeneous_Computing/
+ls
+cd ..
+ls
+cd ..
+ls
+ssh zach@zach-dev-box
+ls
+cd Documents/
+ls
+cd Work/
+ls
+ssh zach@zach-dev-box
+ssh zach@hsalogin
+sudo dmidecode --type 17
+ssh zach@zach-dev-box
+ssh root@74.208.167.199
+ssh root@74.208.167.199

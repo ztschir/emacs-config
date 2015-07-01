@@ -4163,7 +4163,7 @@ desired.  Optional argument FAST is not used."
   :group 'matlab-shell
   :type 'string)
 
-(defcustom matlab-shell-command-switches '("-maci" "-nodesktop" "-nosplash")
+(defcustom matlab-shell-command-switches '("-nodesktop" "-nosplash")
   "*Command line parameters run with `matlab-shell-command'.
 Command switches are a list of strings.  Each entry is one switch."
   :group 'matlab-shell
