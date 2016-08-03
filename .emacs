@@ -2,6 +2,7 @@
 (load-file "~/.emacs.d/matlab/matlab-load.el")
 (load-file "~/.emacs.d/matlab/matlab.el")
 (load-file "~/.emacs.d/exec-path-from-shell/exec-path-from-shell.el")
+(load-file "~/.emacs.d/vlfi/vlf-setup.el")
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
@@ -24,9 +25,16 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Use Emacs terminfo, not system terminfo
+;;(setq system-uses-terminfo nil)
+
+;; Use 256 color term
+(setenv "TERM" "xterm-256color")
+
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
+(require 'vlf-setup)
 (require 'package)
 (add-to-list 'package-archives 
     '("marmalade" .
