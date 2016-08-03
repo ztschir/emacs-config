@@ -3,6 +3,15 @@
 (load-file "~/.emacs.d/matlab/matlab.el")
 (load-file "~/.emacs.d/exec-path-from-shell/exec-path-from-shell.el")
 (load-file "~/.emacs.d/vlfi/vlf-setup.el")
+(load-file "~/.emacs.d/vlfi/vlf.el")
+(load-file "~/.emacs.d/vlfi/vlf-tune.el")
+(load-file "~/.emacs.d/vlfi/vlf-base.el")
+(load-file "~/.emacs.d/vlfi/vlf-ediff.el")
+(load-file "~/.emacs.d/vlfi/vlf-occur.el")
+(load-file "~/.emacs.d/vlfi/vlf-write.el")
+(load-file "~/.emacs.d/vlfi/vlf-follow.el")
+(load-file "~/.emacs.d/vlfi/vlf-search.el")
+
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
