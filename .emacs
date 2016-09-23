@@ -4,7 +4,6 @@
 (load-file "~/.emacs.d/vlfi/vlf-tune.el")
 (load-file "~/.emacs.d/vlfi/vlf-base.el")
 (load-file "~/.emacs.d/vlfi/vlf.el")
-(load-file "~/.emacs.d/vlfi/vlf-ediff.el")
 (load-file "~/.emacs.d/vlfi/vlf-occur.el")
 (load-file "~/.emacs.d/vlfi/vlf-write.el")
 (load-file "~/.emacs.d/vlfi/vlf-follow.el")

@@ -6,6 +6,7 @@
 ;; pymacs
 (require 'pymacs (concat epy-install-dir "extensions/pymacs.el"))
 
+(setq epy-enable-ropemacs t)
 (defun setup-ropemacs ()
   "Setup the ropemacs harness"
   (message "****************************")
@@ -76,9 +77,11 @@
   "Create a copy local file"
   (let* ((temp-file (flymake-init-create-temp-buffer-copy 
                      'flymake-create-temp-in-system-tempdir)))
-    (file-relative-name 
+    (file-relative-name
      temp-file 
-     (file-name-directory buffer-file-name))))     
+     (file-name-directory buffer-file-name))
+    )
+  )   
 
 (defun flymake-command-parse (cmdline)
   "Parses the command line CMDLINE in a format compatible
@@ -114,7 +117,12 @@ The CMDLINE should be something like:
      ;;==================================================
      ;; Ropemacs Configuration
      ;;==================================================
-     (setup-ropemacs)
+     (add-hook 'python-mode-hook (lambda ()
+				   (when epy-enable-ropemacs
+				     (setup-ropemacs)
+				     (ropemacs-mode t))
+				   ))
+
 
      ;;==================================================
      ;; Virtualenv Commands
@@ -127,8 +135,10 @@ The CMDLINE should be something like:
      
      ;; Not on all modes, please
      ;; Be careful of mumamo, buffer file name nil
-     (add-hook 'python-mode-hook (lambda () (if (buffer-file-name)
-						(flymake-mode))))
+     (add-hook 'python-mode-hook (lambda ()
+                                   (if (and (buffer-file-name)
+                                            (file-name-directory buffer-file-name))
+                                       (flymake-mode))))
 
      ;; when we swich on the command line, switch in Emacs
      ;;(desktop-save-mode 1)
