@@ -34,15 +34,18 @@
  '(matlab-mode-install-path (quote ("/Applications/MATLAB_R2015a.app/bin/toolbox/")))
  '(matlab-shell-ask-MATLAB-for-completions t)
  '(matlab-shell-command "/Applications/MATLAB_R2015a.app/bin/matlab")
- '(matlab-shell-command-switches (quote ("-nodesktop -nojvm -nosplash")))
+ '(matlab-shell-command-switches (quote ("-nodesktop -nosplash")))
+ '(package-selected-packages
+   (quote
+    (auto-complete starter-kit-eshell smooth-scroll rainbow-delimiters magit latex-preview-pane)))
  '(tex-dvi-view-command
    (quote
     (cond
      ((eq window-system
-	  (quote x))
+          (quote x))
       "doc-view")
      ((eq window-system
-	  (quote w32))
+          (quote w32))
       "doc-view")
      (t "dvi2tty * | cat -s")))))
 (custom-set-faces
@@ -56,6 +59,10 @@
 ;;(setq system-uses-terminfo nil)
 ;; Use 256 color term
 (setenv "TERM" "xterm-256color")
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+
 
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))

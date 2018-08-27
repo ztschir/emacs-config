@@ -117,11 +117,11 @@ The CMDLINE should be something like:
      ;;==================================================
      ;; Ropemacs Configuration
      ;;==================================================
-     (add-hook 'python-mode-hook (lambda ()
-				   (when epy-enable-ropemacs
-				     (setup-ropemacs)
-				     (ropemacs-mode t))
-				   ))
+     ;;(add-hook 'python-mode-hook (lambda ()
+	;;			   (when epy-enable-ropemacs
+	;;			     (setup-ropemacs)
+	;;			     (ropemacs-mode t))
+	;;			   ))
 
 
      ;;==================================================
