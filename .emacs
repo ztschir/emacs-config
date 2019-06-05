@@ -8,6 +8,7 @@
 (load-file "~/.emacs.d/vlfi/vlf-write.el")
 (load-file "~/.emacs.d/vlfi/vlf-follow.el")
 (load-file "~/.emacs.d/vlfi/vlf-search.el")
+(load-file "~/.emacs.d/cmake-mode.el")
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -31,9 +32,9 @@
  '(global-linum-mode t)
  '(inhibit-startup-screen t)
  '(latex-run-command "latex --output-format=pdf")
- '(matlab-mode-install-path (quote ("/Applications/MATLAB_R2015a.app/bin/toolbox/")))
+ '(matlab-mode-install-path (quote ("/Applications/MATLAB_R2016a.app/bin/toolbox/")))
  '(matlab-shell-ask-MATLAB-for-completions t)
- '(matlab-shell-command "/Applications/MATLAB_R2015a.app/bin/matlab")
+ '(matlab-shell-command "/Applications/MATLAB_R2016a.app/bin/matlab")
  '(matlab-shell-command-switches (quote ("-nodesktop -nosplash")))
  '(package-selected-packages
    (quote
